@@ -1,0 +1,15 @@
+{
+  "name": "nMeow",
+  "description": "Make your life full with cats.",
+  "version": "1",
+  "manifest_version": 2,
+  "permissions": [
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["meow.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
